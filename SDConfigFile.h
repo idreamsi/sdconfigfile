@@ -14,7 +14,8 @@
  */
 
 #include <Arduino.h>
-#include <SD.h>
+#include <Seeed_FS.h>
+#include "SD/Seeed_SD.h"
 
 class SDConfigFile {
   private:
